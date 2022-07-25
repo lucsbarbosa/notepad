@@ -1,0 +1,5 @@
+<a class="list-group-item list-group-item-action" [ngClass]="{'active': info.id == selectedId}">
+  <h5 class="mb-1">{{ info.title }}</h5>
+  <p class="mb-1">{{ info.text.slice(0, 86) + "..." }}</p>
+  <small class="text-muted">{{ info.date }}</small>
+</a>

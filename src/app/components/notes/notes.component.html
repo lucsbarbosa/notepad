@@ -1,0 +1,13 @@
+<div class="div-container">
+  <header>
+    <h1 routerLink="/">Notepad</h1>
+  </header>
+  <div class="list-group">
+    <app-note-preview
+      *ngFor="let note of notes"
+      [info]="note"
+      [routerLink]="'note/' + note.id"
+      [selectedId]="selectedId"
+    ></app-note-preview>
+  </div>
+</div>

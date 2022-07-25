@@ -1,0 +1,22 @@
+{
+    "notes": [
+        {
+            "id": 1,
+            "title": "Primeira nota :)",
+            "text": "Essa é a primeira nota do notepad, propiciada para testes hehe",
+            "date": "24/07/2022"
+        },
+        {
+            "id": 2,
+            "title": "Segunda nota :)",
+            "text": "Essa é a segunda nota do notepad, propiciada para testes hehe",
+            "date": "24/07/2022"
+        },
+        {
+            "id": 3,
+            "title": "Terceira nota :)",
+            "text": "Olá meu nome é lucas e este é um teste de uma string maior de 88 caracterces, na verdade 85 para verificar se mu coódigo está cortanto o texto no momento exato teste teste teste",
+            "date": "24/07/2022"
+        }
+    ]
+}
